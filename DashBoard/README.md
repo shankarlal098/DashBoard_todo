@@ -68,7 +68,7 @@ Follow these simple steps to run the project locally on your machine:
 Step 1: Clone the Repository
 Open your terminal and download the project code:
 git clone https://github.com/shankarlal098/DashBoard_todo.git
-cd task-board
+cd DashBoard_todo
 
 Step 2: Install Dependencies
 Download and install all required packages using npm:  npm install
@@ -78,3 +78,11 @@ Run the project locally:  npm run dev
 
 Step 4: Open in Your Browser
 Once the server starts, open your browser and navigate to:  http://localhost:5173
+
+```
+
+----
+**Project Live Link** : 
+https://dash-board-todo.vercel.app/
+
+
