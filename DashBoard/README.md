@@ -55,7 +55,7 @@ Benefits:
 
 
 
-**State Persistence**
+**State Persistence** :
 Redux state is persisted using Local Storage. This ensures that tasks remain available even after a browser refresh, providing a better user experience and satisfying the assignment requirement for persistence.
 
 
@@ -64,13 +64,11 @@ Redux state is persisted using Local Storage. This ensures that tasks remain ava
 
 
 **Local Installation & Setup Guide**
-
 Follow these simple steps to run the project locally on your machine:
 
+```bash
 Step 1: Clone the Repository
 Open your terminal and download the project code:
-
-```bash
 git clone https://github.com/shankarlal098/DashBoard_todo.git
 cd task-board
 
