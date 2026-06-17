@@ -24,12 +24,11 @@
 
 ## State Management Approach
 
-The assignment required Redux, so **Redux Toolkit** was chosen for centralized state management.
+**Redux Toolkit** was chosen for centralized state management.
 
 Instead of storing separate arrays for each column (To Do, In Progress, Done), **all tasks are stored in a single collection** inside the Redux store. Each task contains a `status` field that determines which column it belongs to.
 
 **Task Entity Structure Example:**
-```json
 {
   "id": "unique-task-id",
   "title": "Implement Drag and Drop",
