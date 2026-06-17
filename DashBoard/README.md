@@ -29,15 +29,17 @@
 Instead of storing separate arrays for each column (To Do, In Progress, Done), **all tasks are stored in a single collection** inside the Redux store. Each task contains a `status` field that determines which column it belongs to.
 
 **Task Entity Structure Example:**
+```json
 {
-  "id": "unique-task-id",
-  "title": "Implement Drag and Drop",
-  "description": "Create native HTML5 drag and drop handlers",
-  "status": "todo", 
-  "priority": "High",
-  "dueDate": "2026-06-20",
-  "createdAt": "2026-06-17"
+"id": "unique-task-id",
+"title": "Implement Drag and Drop",
+"description": "Create native HTML5 drag and drop handlers",
+"status": "todo",
+"priority": "High",
+"dueDate": "2026-06-20",
+"createdAt": "2026-06-17"
 }
+```
 
 This approach was chosen because a task remains the same entity throughout its lifecycle and only its status changes. Using a single task collection avoids state duplication, simplifies task movement, improves scalability, and aligns closely with real-world database design.
 
