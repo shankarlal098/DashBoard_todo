@@ -53,14 +53,12 @@ Benefits:
 - Simpler drag-and-drop integration
 - Database-friendly data modeling
 
-
+---
 
 **State Persistence** :
 Redux state is persisted using Local Storage. This ensures that tasks remain available even after a browser refresh, providing a better user experience and satisfying the assignment requirement for persistence.
 
-
-
-
+---
 
 
 **Local Installation & Setup Guide**
